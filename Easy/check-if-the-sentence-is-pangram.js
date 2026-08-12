@@ -8,13 +8,19 @@
  */
 
 /**
- * @param {string} sentence
- * @return {boolean}
- */
-var checkIfPangram = function (sentence) {
-    let countStr = {}
-    if(sentence.length < 26) return false
-    if (sentence.length >= 26) {
-        for (let s of sentence) {
-            countStr[s] = (countStr[s] || 0) + 1
-        }
+ * @param {string} sentence
+ * @return {boolean}
+ */
+var checkIfPangram = function (sentence) {
+    let countStr = {}
+    if(sentence.length < 26) return false
+    if (sentence.length >= 26) {
+        for (let s of sentence) {
+            countStr[s] = (countStr[s] || 0) + 1
+        }
+        if (Object.keys(countStr).length != 26) {
+            return false
+        }
+    }
+    return true
+};
