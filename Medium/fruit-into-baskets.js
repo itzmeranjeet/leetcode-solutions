@@ -1,7 +1,7 @@
 /*
  * LeetCode: Fruit Into Baskets
  * Difficulty: Medium
- * URL: https://leetcode.com/problems/fruit-into-baskets/description/
+ * URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2108018824/
  * Language: javascript
  *
  * Synced by Personal LeetHub
