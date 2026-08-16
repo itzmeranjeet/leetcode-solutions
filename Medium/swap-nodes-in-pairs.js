@@ -37,8 +37,8 @@ var swapPairs = function(head) {
         head = second
     }
 
-    prev = fisrt
-    fisrt = third
+    prev = first
+    first = third
 
     if(third !== null){
         second = third.next
